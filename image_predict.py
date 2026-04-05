@@ -2,7 +2,10 @@ import os
 import json
 import numpy as np
 from PIL import Image
-import tensorflow as tf
+try:
+    import tflite_runtime.interpreter as tflite
+except ImportError:
+    import tensorflow.lite as tflite
 
 MODELS_DIR = os.path.join(os.path.dirname(__file__), "models")
 
@@ -72,7 +75,7 @@ _advice = None
 def _load_router():
     global _router
     if _router is None:
-        _router = tf.lite.Interpreter(
+        _router = tflite.Interpreter(
             model_path=os.path.join(MODELS_DIR, "master_router_model.tflite"))
         _router.allocate_tensors()
 
@@ -80,7 +83,7 @@ def _load_router():
 def _load_specialist(category: str):
     if category not in _specialists and category in SPECIALIST_MODELS:
         path = os.path.join(MODELS_DIR, SPECIALIST_MODELS[category])
-        interp = tf.lite.Interpreter(model_path=path)
+        interp = tflite.Interpreter(model_path=path)
         interp.allocate_tensors()
         _specialists[category] = interp
 
