@@ -1,0 +1,196 @@
+{
+    "skin": {
+        "Melanocytic nevi": {
+            "info": "Common benign mole.",
+            "precautions": [
+                "Monitor for changes in size or color.",
+                "Use SPF 30+ sunscreen."
+            ],
+            "urgency": "Low"
+        },
+        "Melanoma": {
+            "info": "A serious form of skin cancer.",
+            "precautions": [
+                "Seek immediate dermatological consultation.",
+                "Do not attempt home remedies."
+            ],
+            "urgency": "High"
+        },
+        "Benign keratosis": {
+            "info": "Non-cancerous skin growths.",
+            "precautions": [
+                "Avoid picking or scratching.",
+                "Consult a doctor if irritated."
+            ],
+            "urgency": "Low"
+        },
+        "Basal cell carcinoma": {
+            "info": "Common, slow-growing skin cancer.",
+            "precautions": [
+                "Consult a specialist for removal.",
+                "Protect area from UV."
+            ],
+            "urgency": "Moderate"
+        },
+        "Actinic keratoses": {
+            "info": "Precancerous scaly patches.",
+            "precautions": [
+                "Limit sun exposure.",
+                "Wear protective clothing."
+            ],
+            "urgency": "Moderate"
+        },
+        "Vascular lesions": {
+            "info": "Growths made of blood vessels.",
+            "precautions": [
+                "Monitor for bleeding.",
+                "Consult if it grows rapidly."
+            ],
+            "urgency": "Low"
+        },
+        "Dermatofibroma": {
+            "info": "Small, harmless fibrous bumps.",
+            "precautions": [
+                "No specific treatment needed.",
+                "Harmless unless painful."
+            ],
+            "urgency": "Low"
+        }
+    },
+    "lung": {
+        "NORMAL": {
+            "info": "Lungs appear clear and healthy.",
+            "precautions": [
+                "Maintain a healthy lifestyle.",
+                "Avoid smoking.",
+                "Annual health screenings."
+            ],
+            "urgency": "Low"
+        },
+        "PNEUMONIA": {
+            "info": "Infection that inflames the air sacs in the lungs.",
+            "precautions": [
+                "Seek medical attention for diagnosis.",
+                "Get plenty of rest.",
+                "Monitor oxygen levels if breathing is difficult."
+            ],
+            "urgency": "High"
+        }
+    },
+    "brain": {
+        "no_tumor": {
+            "info": "No visible tumor detected in the MRI.",
+            "precautions": [
+                "Maintain regular checkups.",
+                "Monitor for unusual headaches or vision changes."
+            ],
+            "urgency": "Low"
+        },
+        "glioma_tumor": {
+            "info": "A type of tumor that occurs in the brain and spinal cord.",
+            "precautions": [
+                "Immediate neurological consultation required.",
+                "Prepare for further imaging or biopsy."
+            ],
+            "urgency": "Critical"
+        },
+        "meningioma_tumor": {
+            "info": "A tumor that arises from the meninges (membranes surrounding the brain/spinal cord).",
+            "precautions": [
+                "Consult a neurosurgeon.",
+                "Treatment depends on size and growth rate."
+            ],
+            "urgency": "High"
+        },
+        "pituitary_tumor": {
+            "info": "Abnormal growths that develop in your pituitary gland.",
+            "precautions": [
+                "Endocrinologist and neurologist evaluation needed.",
+                "Monitor hormone levels."
+            ],
+            "urgency": "High"
+        }
+    },
+    "eye": {
+        "normal": {
+            "info": "The eye appears clear and healthy.",
+            "precautions": [
+                "Wear UV-blocking sunglasses.",
+                "Get routine eye exams every 1-2 years.",
+                "Follow the 20-20-20 rule for screen time."
+            ],
+            "urgency": "Low"
+        },
+        "cataract": {
+            "info": "Clouding of the normally clear lens of the eye.",
+            "precautions": [
+                "Schedule an exam with an ophthalmologist.",
+                "Use brighter lights for reading.",
+                "Update your eyeglass prescription."
+            ],
+            "urgency": "Moderate"
+        },
+        "glaucoma": {
+            "info": "A group of eye conditions that damage the optic nerve, often linked to high pressure.",
+            "precautions": [
+                "Requires immediate ophthalmologist evaluation.",
+                "Do not ignore blind spots or vision loss.",
+                "Requires prescription eye drops or surgery."
+            ],
+            "urgency": "High"
+        },
+        "diabetic_retinopathy": {
+            "info": "A diabetes complication that affects eyes by damaging blood vessels in the retina.",
+            "precautions": [
+                "Strictly manage blood sugar levels.",
+                "Requires urgent diabetic eye exam.",
+                "Monitor for sudden vision changes or floaters."
+            ],
+            "urgency": "High"
+        }
+    },
+    "nail": {
+        "onychomycosis": {
+            "info": "Fungal infection of the nail causing thickening and discolouration.",
+            "precautions": [
+                "Keep nails meticulously clean and dry.",
+                "Wear sweat-absorbing socks and breathable shoes.",
+                "Apply over-the-counter topical anti-fungal treatments.",
+                "Avoid sharing nail clippers or files."
+            ],
+            "urgency": "Low"
+        },
+        "paronychia": {
+            "info": "Infection of the skin around the nail fold causing pain and swelling.",
+            "precautions": [
+                "Soak the affected area in warm water 3-4 times a day.",
+                "Do not bite, pick, or manipulate the nail or cuticle.",
+                "Keep the area clean to prevent bacterial spread.",
+                "Consult a physician if pus develops or swelling worsens."
+            ],
+            "urgency": "Moderate"
+        }
+    },
+    "oral": {
+        "gingivitis": {
+            "info": "Inflammation of the gums caused by plaque build-up.",
+            "precautions": [
+                "Brush teeth twice a day with fluoride toothpaste.",
+                "Floss daily to remove plaque between teeth.",
+                "Use an antibacterial mouthwash.",
+                "Schedule a professional dental cleaning."
+            ],
+            "urgency": "Moderate"
+        },
+        "mouth_ulcer": {
+            "info": "Painful sores inside the mouth that make eating and talking uncomfortable.",
+            "precautions": [
+                "Avoid spicy, salty, or highly acidic foods.",
+                "Rinse mouth gently with warm salt water.",
+                "Apply over-the-counter oral numbing gels.",
+                "Use a soft-bristled toothbrush to avoid irritation."
+            ],
+            "urgency": "Low"
+        }
+    }
+}
