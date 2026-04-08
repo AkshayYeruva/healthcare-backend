@@ -8,7 +8,9 @@ import os
 from PIL import Image
 
 from symptom_predict import predict_disease
-from image_predict import predict_image
+def get_image_predictor():
+    from image_predict import predict_image
+    return predict_image
 
 app = FastAPI()
 
