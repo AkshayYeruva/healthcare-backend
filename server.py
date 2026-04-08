@@ -45,8 +45,8 @@ async def image_endpoint(file: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail="File must be an image")
     data = await file.read()
     image = Image.open(io.BytesIO(data)).convert("RGB")
-    return predict_image(image)
-
+    predict = get_image_predictor()
+    return predict(image)
 
 WEB_DIR = os.path.join(os.path.dirname(__file__), "web")
 if os.path.exists(WEB_DIR):
